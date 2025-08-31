@@ -176,7 +176,8 @@
   },
   "scripts": {
     "e2e:chrome": "cypress run --browser chrome",
-    "e2e:headless": "cypress run --headless"
+    "e2e:headless": "cypress run --headless",
+    "test:homeTest": "npx cypress run --spec cypress/e2e/tests/homeTest.cy.js"
   },
   "repository": {
     "type": "git",
