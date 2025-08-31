@@ -3,7 +3,7 @@ name: Sanity Check Build
 on: push
 
 jobs:
-  cypress-run:
+  Sanity-Check:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
