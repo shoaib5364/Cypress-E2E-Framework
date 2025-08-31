@@ -17,7 +17,7 @@ jobs:
       - name: Execution Test Report
         uses: actions/upload-artifact@v4
         with:
-          name: Mochawesome Report
+          name: Mochawesome Report Firefox Execution
           path: cypress/reports/html
 
   Chrome-Browser-RUN:
@@ -34,5 +34,5 @@ jobs:
       - name: Execution Test Report
         uses: actions/upload-artifact@v4
         with:
-          name: Mochawesome Report
+          name: Mochawesome Report Chrome Execution
           path: cypress/reports/html
