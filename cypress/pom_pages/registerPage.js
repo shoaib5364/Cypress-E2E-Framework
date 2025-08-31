@@ -7,12 +7,12 @@ locators={
     telephone: '#input-telephone',
     password: '#input-password',
     passwordConfirm: '#input-confirm',
-    policyCheckbox: 'input[name="agree"]',
+    policyCheckbox: 'input[name="agre"]',
     continue: 'input[value="Continue"]'
 }
 
 openURL(){
-    cy.visit(Cypress.env('URL'))
+    cy.visit(Cypress.env('registerURL'))
 }
 
 enterFirstName(FName)
